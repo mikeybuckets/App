@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../partials/Header";
 import DataResearch from "../partials/DataResearch";
-import DashboardFeaturesHome from "../partials/DashboardFeaturesHome";
+import DashboardFeaturesHome from "../partials/Dashboard"
 
 export default function Dashboard() {
   return (

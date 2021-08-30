@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 import Header from "../partials/Header";
 import DataResearch from "../partials/DataResearch";
-import DashboardFeaturesHome from "../partials/DashboardFeaturesHome";
+                                               me
+
+       eaturesHome from "../partials/FeaturesHo"
+import 
 
 export default function Dashboard() {
   return (
@@ -11,7 +14,7 @@ export default function Dashboard() {
       {/*  Site header */}
       <Header />
       <DataResearch />
-      <DashboardFeaturesHome />
+      <FeaturesHome />
     </div>
   );
 }
