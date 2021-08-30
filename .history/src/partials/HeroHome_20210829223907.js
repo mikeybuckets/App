@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+              { useState } from "react";
 import Modal from "../utils/Modal";
 
 function HeroHome() {
@@ -48,7 +48,6 @@ function HeroHome() {
               DivOps{" "}
               <span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'>
                 Dashboard
-              </span>
             </h1>
             <div className='max-w-3xl mx-auto'>
               <p
