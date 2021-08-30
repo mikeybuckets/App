@@ -94,7 +94,8 @@ function Header() {
             <ul className='flex flex-grow justify-end flex-wrap items-center'>
               <li>
                 <Link
-                  to='/dashboardt-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out'
+                  to='/pricing'
+                  className='text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out'
                 >
                   Dashboard
                 </Link>

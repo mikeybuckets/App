@@ -1,4 +1,3 @@
-              
 import React, { useState } from "react";
 import Modal from "../utils/Modal";
 
@@ -38,17 +37,19 @@ function HeroHome() {
         </svg>
       </div>
 
-      <div className='max-w-6xl mx-auto px-4 sm:px-6 bg-gray-900'>
+      <div className='max-w-6xl mx-auto px-4 sm:px-6 bg'>
+        {/* Hero content */}
         <div className='pt-32 pb-12 md:pt-40 md:pb-20'>
           {/* Section header */}
           <div className='text-center pb-12 md:pb-16'>
             <h1
-              className='text-white text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4'
+              className='text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4'
               data-aos='zoom-y-out'
             >
               DivOps{" "}
               <span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'>
-                Dashboard
+                wonderful
+              </span>
             </h1>
             <div className='max-w-3xl mx-auto'>
               <p
