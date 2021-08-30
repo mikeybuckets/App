@@ -46,7 +46,7 @@ function HeroHome() {
               data-aos='zoom-y-out'
             >
               DivOps{" "}
-              <span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'>
+              <span className='bg-clip-text text-transparent bg-gradient-to-r from-gray-200 to-gray-700'>
                 Dashboard
               </span>
             </h1>
@@ -66,7 +66,7 @@ function HeroHome() {
               >
                 <div>
                   <a
-                    className='btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0'
+                    className='btn text-white bg-gray-500 hover:bg-gray-900 hover w-full mb-4 sm:w-auto sm:mb-0'
                     href='#0'
                   >
                     Start free trial
@@ -74,7 +74,7 @@ function HeroHome() {
                 </div>
                 <div>
                   <a
-                    className='btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4'
+                    className='btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:ml-4'
                     href='#0'
                   >
                     Learn more
