@@ -162,7 +162,7 @@ function HeroHome() {
                     />
                     <g fillRule='nonzero'>
                       <use fill='#000' xlinkHref='#hero-ill-d' />
-                      <use fill='url(#hero-ill-e)' xlinkHref='#hero-ill-d' />
+                      <use fill='url(#hero-ill-b)' xlinkHref='#hero-ill-b' />
                     </g>
                   </g>
                 </svg>
