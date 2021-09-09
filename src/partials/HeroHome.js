@@ -48,9 +48,9 @@ function HeroHome() {
               className='text-white text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4'
               data-aos='zoom-y-out'
             >
-              DivOps{" "}
+              Mike{" "}
               <span className='bg-clip-text text-transparent bg-gradient-to-r from-gray-200 to-gray-700'>
-                Dashboard
+                Calendo
               </span>
             </h1>
             <div className='max-w-3xl mx-auto'>
@@ -59,9 +59,7 @@ function HeroHome() {
                 data-aos='zoom-y-out'
                 data-aos-delay='150'
               >
-                An online suite of source software tools that aims to simplify
-                everyday web administration tasks through automation and pairing
-                users to efficient resources.
+                A virtual resume.
               </p>
               <div
                 className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center'
@@ -71,9 +69,9 @@ function HeroHome() {
                 <div>
                   <a
                     className='btn text-white bg-gray-500 hover:bg-gray-800 hover w-full mb-4 sm:w-auto sm:mb-0'
-                    href='#pricing'
+                    href='/about'
                   >
-                    Get Started
+                    Background
                   </a>
                 </div>
                 <div>
@@ -81,7 +79,7 @@ function HeroHome() {
                     className='btn text-white hover:text-900 bg-purple-700 hover:bg-purple-800 w-full sm:w-auto sm:ml-4'
                     href='#0'
                   >
-                    Learn more
+                    Experience
                   </a>
                 </div>
               </div>
