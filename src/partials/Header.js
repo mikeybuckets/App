@@ -129,7 +129,7 @@ function Header() {
               <li>
                 <Link
                   to='https://michaelcalendo.com'
-                  className='btn-sm text-gray-200 bg-gray-800 hover:bg-gray-800 ml-3'
+                  className='btn-sm text-gray-200 bg-gray-800 hover:bg-gray-700 ml-3'
                 >
                   <span>Portfolio</span>
                   <svg
