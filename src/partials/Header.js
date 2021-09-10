@@ -57,9 +57,7 @@ function Header() {
           {/* Site branding */}
           <div className='flex-shrink-0 mr-4'>
             {/* Logo */}
-            <Link to='/' className='block' aria-label='Cruip'>
-             
-            </Link>
+            <Link to='/' className='block' aria-label='Cruip'></Link>
           </div>
 
           {/* Desktop sign in links */}
