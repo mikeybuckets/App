@@ -12,13 +12,13 @@ function AboutIntro() {
               data-aos='zoom-y-out'
             >
               <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-gray-200 to-gray-700 myx-auto'>
-                From a great family in...
+                From a great family...
               </h1>
-              <span>the Valley, Arizona</span>
+              <span>raised in the Valley, Arizona</span>
             </h1>
             <div>
               <a
-                className='btn text-white bg-gray-500 hover:bg-gray-800 hover w-full mb-4 sm:w-auto sm:mb-0'
+                className='btn flex text-white bg-gray-500 hover:bg-gray-800 hover w-full mb-4 sm:w-auto sm:mb-0'
                 href='/'
               >
                 Home
@@ -26,10 +26,10 @@ function AboutIntro() {
             </div>
             <div>
               <a
-                className='btn text-white hover:text-900 bg-purple-700 hover:bg-purple-800 w-full sm:w-auto sm:ml-4'
+                className='flex btn text-white hover:text-900 bg-purple-700 hover:bg-purple-800 w-full sm:w-auto sm:mb-0'
                 href='/resume-page'
               >
-                Experience
+                Resume
               </a>
             </div>
           </div>

@@ -30,7 +30,7 @@ function PricingTables() {
           <div className='max-w-3xl mx-auto text-center pb-12'>
             <div className='flex justify-center items-start'>
               <img
-                className='flex flex-grow rounded shadow-2xl mxy-auto'
+                className='rounded shadow-2xl autoFocus'
                 src={require("../images/mikes-resume_090921.png").default}
                 alt='About us'
               />

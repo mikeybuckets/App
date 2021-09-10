@@ -49,10 +49,9 @@ function Header() {
   return (
     <header
       className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
-        !top && "bg-gray-800 blur shadow-lg"
+        !top && "bg-white blur shadow-lg"
       }`}
     >
-      e
       <div className='max-w-6xl mx-auto px-5 sm:px-6'>
         <div className='flex items-center justify-between h-16 md:h-20'>
           {/* Site branding */}
@@ -129,7 +128,7 @@ function Header() {
             <ul className='flex flex-grow justify-end flex-wrap items-center'>
               <li>
                 <Link
-                  to='/signup'
+                  to='https://michaelcalendo.com'
                   className='btn-sm text-gray-200 bg-gray-800 hover:bg-gray-800 ml-3'
                 >
                   <span>Portfolio</span>

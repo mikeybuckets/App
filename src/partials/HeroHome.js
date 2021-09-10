@@ -74,9 +74,9 @@ function HeroHome() {
                 <div>
                   <a
                     className='btn text-white hover:text-900 bg-purple-700 hover:bg-purple-800 w-full sm:w-auto sm:ml-4'
-                    href='#0'
+                    href='/resume-page'
                   >
-                    Experience
+                    Resume
                   </a>
                 </div>
               </div>

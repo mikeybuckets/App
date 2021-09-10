@@ -10,11 +10,11 @@ function ResumePage() {
       <Header />
 
       {/*  Page content */}
-      <main className='bg-gray-800 flex-grow'>
+      <main className='bg-gray-900 flex-grow'>
         <section className='relative'>
           {/* Illustration behind content */}
           <div
-            className='absolute left-1/2 transform -translate-x-1/2 -mb-64 bottom-0 pointer-events-none -z-1'
+            className='absolute left-1/2 transform -translate-x-1/2 mb-64 bottom-0 pointer-events-none -z-1'
             aria-hidden='true'
           >
             <svg
@@ -57,7 +57,7 @@ function ResumePage() {
                     <span className='text-gray-600'>By </span>
                     <a
                       className='font-medium hover:underline text-gray-100 hover:text-white'
-                      href='#0'
+                      href='#author'
                     >
                       Micheal Calendo
                     </a>
@@ -72,8 +72,39 @@ function ResumePage() {
                   </div>
 
                   <div className='resume-form-container'></div>
-                  <PricingTables />
+                  <div className='flex justify-center items-start'>
+                    <img
+                      className='rounded shadow-2xl mxy-auto'
+                      src={require("../images/sc2.jpg").default}
+                      alt='About us'
+                    />
+                  </div>
+
+                  <div className='flex justify-center py-10 items-start'>
+                    <img
+                      className='rounded shadow-2xl mxy-auto'
+                      src={require("../images/sc3.jpg").default}
+                      alt='About us'
+                    />
+                  </div>
+
+                  <div className='flex justify-center py-10 items-start'>
+                    <img
+                      className='rounded shadow-2xl mxy-auto'
+                      src={require("../images/sc1.jpg").default}
+                      alt='About us'
+                    />
+                  </div>
+
+                  <div className='max-w-3xl mx-auto text-center'>
+                    {/* 404 content */}
+                    <h1 className='flex flex-grow text-gray-100 font-semibold h1 mb-4'>
+                      Project Preview
+                    </h1>
+                  </div>
                 </div>
+
+                <div className='file-attatachment-container'></div>
               </div>
             </div>
           </div>
