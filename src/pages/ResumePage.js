@@ -10,7 +10,7 @@ function ResumePage() {
       <Header />
 
       {/*  Page content */}
-      <main className='flex-grow'>
+      <main className='bg-gray-800 flex-grow'>
         <section className='relative'>
           {/* Illustration behind content */}
           <div
@@ -45,15 +45,17 @@ function ResumePage() {
           </div>
 
           <div className='flex flex-grow max-w-6xl mx-auto px-4 sm:px-6'>
-            <div className='flex flex-grow pt-32 pb-12 md:pt-40 md:pb-20'>
+            <div className='flex flex-grow pt-16 pb-12 md:pt-40 md:pb-20'>
               <div className='max-w-3xl mx-auto text-center'>
                 {/* 404 content */}
-                <h1 className='flex flex-grow h1 mb-4'>My Resume</h1>
+                <h1 className='flex flex-grow text-gray-100 font-semibold h1 mb-4'>
+                  My Resume
+                </h1>
 
                 <div className='flex-grow bg-transparent'>
                   <div>
                     <span className='text-gray-600'>By </span>
-                    <a className='font-medium hover:underline' href='#0'>
+                    <a className='font-medium hover:underline text-gray-100 hover:text-white' href='#0'>
                       Micheal Calendo
                     </a>
                     <span className='text-purple-600 font-semibold'>
@@ -67,6 +69,7 @@ function ResumePage() {
                   </div>
 
                   <div className='resume-form-container'></div>
+                  <PricingTables />
                 </div>
               </div>
             </div>

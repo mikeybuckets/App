@@ -17,13 +17,9 @@ function About() {
       <main className='flex-grow'>
         {/*  Page sections */}
         <AboutIntro />
-        <FeaturesWorld />
-        <News />
-        <Cta />
       </main>
 
       {/*  Site footer */}
-      <Footer />
     </div>
   );
 }

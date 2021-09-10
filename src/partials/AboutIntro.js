@@ -17,20 +17,36 @@ function AboutIntro() {
               <span>the Valley, Arizona</span>
             </h1>
             <div>
-              <img
-                className='rounded shadow-2xl item-center my-10 py-0 px-12 mxy-auto'
-                src={require("../images/sun-fog-43.png").default}
-                alt='About us'
-              />
+              <a
+                className='btn text-white bg-gray-500 hover:bg-gray-800 hover w-full mb-4 sm:w-auto sm:mb-0'
+                href='/'
+              >
+                Home
+              </a>
             </div>
+            <div>
+              <a
+                className='btn text-white hover:text-900 bg-purple-700 hover:bg-purple-800 w-full sm:w-auto sm:ml-4'
+                href='/resume-page'
+              >
+                Experience
+              </a>
+            </div>
+          </div>
+          <div>
+            <img
+              className='rounded shadow-2xl item-center my-10 py-0 px-12 mxy-auto'
+              src={require("../images/sun-fog-43.png").default}
+              alt='About us'
+            />
+          </div>
 
-            <div className='flex justify-center items-start'>
-              <img
-                className='rounded shadow-2xl mxy-auto'
-                src={require("../images/the-family.jpg").default}
-                alt='About us'
-              />
-            </div>
+          <div className='flex justify-center items-start'>
+            <img
+              className='rounded shadow-2xl mxy-auto'
+              src={require("../images/the-family.jpg").default}
+              alt='About us'
+            />
           </div>
         </div>
       </div>
