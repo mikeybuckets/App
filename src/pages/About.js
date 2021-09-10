@@ -2,11 +2,9 @@ import React from "react";
 
 import Header from "../partials/Header";
 import AboutIntro from "../partials/AboutIntro";
-import Stats from "../partials/Stats";
-import Team from "../partials/Team";
-import Career from "../partials/Career";
-import Process from "../partials/Process";
-import CtaAlternative from "../partials/CtaAlternative";
+import FeaturesWorld from "../partials/FeaturesWorld";
+import News from "../partials/News";
+import Cta from "../partials/Cta";
 import Footer from "../partials/Footer";
 
 function About() {
@@ -19,11 +17,9 @@ function About() {
       <main className='flex-grow'>
         {/*  Page sections */}
         <AboutIntro />
-        <Stats />
-        <Team />
-        <Career />
-        <Process />
-        <CtaAlternative />
+        <FeaturesWorld />
+        <News />
+        <Cta />
       </main>
 
       {/*  Site footer */}

@@ -12,9 +12,9 @@ function AboutIntro() {
               data-aos='zoom-y-out'
             >
               <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-gray-200 to-gray-700 myx-auto'>
-                The Valley
+                From a great family in...
               </h1>
-              <span>Arizona</span>
+              <span>the Valley, Arizona</span>
             </h1>
             <div>
               <img
