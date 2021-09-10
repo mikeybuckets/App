@@ -55,7 +55,10 @@ function ResumePage() {
                 <div className='flex-grow bg-transparent'>
                   <div>
                     <span className='text-gray-600'>By </span>
-                    <a className='font-medium hover:underline text-gray-100 hover:text-white' href='#0'>
+                    <a
+                      className='font-medium hover:underline text-gray-100 hover:text-white'
+                      href='#0'
+                    >
                       Micheal Calendo
                     </a>
                     <span className='text-purple-600 font-semibold'>
