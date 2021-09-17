@@ -8,18 +8,8 @@ import Sticky from "sticky-js";
 import { focusHandling } from "cruip-js-toolkit";
 
 import Home from "./pages/Home";
-import Dashboard from "./pages/Dashboard";
-import Tutorials from "./pages/Tutorials";
-import Pricing from "./pages/Pricing";
-import Blog from "./pages/Blog";
-import BlogPost from "./pages/BlogPost";
 import About from "./pages/About";
-import Documentation from "./pages/Documentation";
-import Support from "./pages/Support";
-import SignIn from "./pages/SignIn";
-import SignUp from "./pages/SignUp";
-import ResetPassword from "./pages/ResetPassword";
-import ResumePage from "./pages/ResumePage";
+import Resume from "./pages/Resume";
 
 function App() {
   const location = useLocation();
@@ -48,41 +38,11 @@ function App() {
         <Route exact path='/'>
           <Home />
         </Route>
-        <Route path='/tutorials'>
-          <Tutorials />
-        </Route>
-        <Route path='/dashboard'>
-          <Dashboard />
-        </Route>
-        <Route path='/pricing'>
-          <Pricing />
-        </Route>
-        <Route path='/blog'>
-          <Blog />
-        </Route>
-        <Route path='/blog-post'>
-          <BlogPost />
-        </Route>
-        <Route path='/about'>
+        <Route path='/about-me'>
           <About />
         </Route>
-        <Route path='/documentation'>
-          <Documentation />
-        </Route>
-        <Route path='/support'>
-          <Support />
-        </Route>
-        <Route path='/signin'>
-          <SignIn />
-        </Route>
-        <Route path='/signup'>
-          <SignUp />
-        </Route>
-        <Route path='/reset-password'>
-          <ResetPassword />
-        </Route>
         <Route path='/resume-page'>
-          <ResumePage />
+          <Resume />
         </Route>
       </Switch>
     </>

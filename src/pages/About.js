@@ -2,10 +2,6 @@ import React from "react";
 
 import Header from "../partials/Header";
 import AboutIntro from "../partials/AboutIntro";
-import FeaturesWorld from "../partials/FeaturesWorld";
-import News from "../partials/News";
-import Cta from "../partials/Cta";
-import Footer from "../partials/Footer";
 
 function About() {
   return (

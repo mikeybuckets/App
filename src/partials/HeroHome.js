@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function HeroHome() {
   return (
@@ -59,21 +59,21 @@ function HeroHome() {
                 A virtual resume
               </p>
               <div
-                className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center'
+                className='sm:flex sm:flex-grow max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center'
                 data-aos='zoom-y-out'
                 data-aos-delay='300'
               >
                 <div>
                   <a
-                    className='btn text-white bg-gray-500 hover:bg-gray-800 hover w-full mb-4 sm:w-auto sm:mb-0'
-                    href='/about'
+                    className='btn text-gray-100 hover:text-white bg-gray-500 hover:bg-gray-800 mxy-auto '
+                    href='/about-me'
                   >
-                    Background
+                    History
                   </a>
                 </div>
                 <div>
                   <a
-                    className='btn text-white hover:text-900 bg-purple-700 hover:bg-purple-800 w-full sm:w-auto sm:ml-4'
+                    className='btn text-gray-100 hover:text-white bg-purple-700 hover:bg-purple-800 mxy-auto'
                     href='/resume-page'
                   >
                     Resume
@@ -90,7 +90,10 @@ function HeroHome() {
               data-aos='zoom-y-out'
               data-aos-delay='450'
             >
-              <div className='flex flex-col justify-center'>
+              <div
+                className='flex flex-col justify-center hover:scale-105
+        transform transition duration-200 ease-out'
+              >
                 <img
                   className='mx-auto'
                   src={require("../images/hero-image-01.png").default}

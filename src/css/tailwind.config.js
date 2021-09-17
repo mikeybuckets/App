@@ -14,38 +14,24 @@ module.exports = {
           800: "#333333",
           900: "#191919",
         },
+        blue: {
+          100: "#E6F0FD",
+          900: "#311B92",
+        },
+        pink: {
+          100: "#651FFF",
+          200: "#311B92",
+        },
         purple: {
           100: "#EDE716",
           200: "#D1C4E9",
-          300: "#3B388FF",
+          300: "#9e1fff",
           400: "#B39DDB",
           500: "##7C4DFF",
           600: "#9575CD",
           700: "#673AB7",
           800: "#330066",
           900: "#6F42C1",
-        },
-        blue: {
-          100: "#E6F0FD",
-          200: "#CCE2FC",
-          300: "#99C5FA",
-          400: "#66A9F7",
-          500: "#338CF5",
-          600: "#0070F4",
-          700: "#0064DA",
-          800: "#0059C2",
-          900: "#004391",
-        },
-        teal: {
-          100: "#E6FFFA",
-          200: "#B2F5EA",
-          300: "#81E6D9",
-          400: "#4FD1C5",
-          500: "#3ABAB4",
-          600: "#319795",
-          700: "#2C7A7B",
-          800: "#285E61",
-          900: "#234E52",
         },
       },
       boxShadow: {
@@ -129,9 +115,43 @@ module.exports = {
           "50%": { transform: "translateY(-5%)" },
         },
       },
-      zIndex: {
-        "-1": "-1",
-      },
+      customForms: (theme) => ({
+        default: {
+          "input, textarea, multiselect, select, checkbox, radio": {
+            backgroundColor: theme("colors.white"),
+            borderColor: theme("colors.gray.300"),
+            borderRadius: theme("borderRadius.default"),
+            "&:focus": {
+              outline: undefined,
+              boxShadow: undefined,
+              borderColor: theme("colors.gray.500"),
+            },
+          },
+          "input, textarea, multiselect, select": {
+            backgroundColor: theme("colors.white"),
+            fontSize: undefined,
+            lineHeight: undefined,
+            paddingTop: theme("spacing.3"),
+            paddingRight: theme("spacing.4"),
+            paddingBottom: theme("spacing.3"),
+            paddingLeft: theme("spacing.4"),
+          },
+          "input, textarea": {
+            "&::placeholder": {
+              color: theme("colors.gray.500"),
+            },
+          },
+          select: {
+            paddingRight: theme("spacing.10"),
+            iconColor: theme("colors.gray.400"),
+          },
+          "checkbox, radio": {
+            color: theme("colors.gray.800"),
+            backgroundColor: theme("colors.white"),
+            borderRadius: theme("borderRadius.sm"),
+          },
+        },
+      }),
     },
   },
   variants: {
@@ -141,5 +161,5 @@ module.exports = {
     boxShadow: ["responsive", "hover", "focus", "focus-within"],
     opacity: ["responsive", "hover", "focus", "group-hover"],
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
